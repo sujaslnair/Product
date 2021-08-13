@@ -95,7 +95,7 @@ async queryAllProduct(ctx) {
     console.info("working")
     return JSON.stringify(allResults);
 }
-
+//Delete all products
 async deleteAllProduct(ctx) {
     
     const allResults = [];
